@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Planner Pro</h1>
+    </header>
+    
+    <main>
+        <section class="notes">
+            <h2>Notes</h2>
+            <ul id="notes-list">
+                <!-- Notes will be dynamically added here -->
+            </ul>
+            <textarea id="note-input" placeholder="Add a new note"></textarea>
+            <button id="add-note">Add Note</button>
+        </section>
+
+        <section class="todo">
+            <h2>Todo List</h2>
+            <ul id="todo-list">
+                <!-- Todo items will be dynamically added here -->
+            </ul>
+            <input id="todo-input" type="text" placeholder="Add a new todo item">
+            <button id="add-todo">Add Todo</button>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
